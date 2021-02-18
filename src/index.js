@@ -91,7 +91,7 @@ v.addPattern('non-required',{
 });
 
 v.addPattern('numeric',{
-    message : '必须是数字' , 
+    message : '必须数字' , 
     validate : function( value , done ) {
         done( /^\d+$/.test( value ) );
     }
